@@ -15,18 +15,18 @@ public class User {
     private Long id;
 
     @Column(name = "first_Name")
-    @NotEmpty(message = "Name should not be empty!")
-    @Size(min = 2, max = 20, message = "Name should be between 2 and 30 characters!")
+//    @NotEmpty(message = "Name should not be empty!")
+//    @Size(min = 2, max = 20, message = "Name should be between 2 and 30 characters!")
     private String firstName;
 
     @Column(name = "last_name")
-    @NotEmpty(message = "Surname should not be empty!")
-    @Size(min = 2, max = 20, message = "Surname should be between 2 and 30 characters!")
+//    @NotEmpty(message = "Surname should not be empty!")
+//    @Size(min = 2, max = 20, message = "Surname should be between 2 and 30 characters!")
     private String lastName;
 
     @Column(name = "email")
-    @NotEmpty(message = "Email should not be empty!")
-    @Email(message = "Email should be valid!")
+//    @NotEmpty(message = "Email should not be empty!")
+//    @Email(message = "Email should be valid!")
     private String email;
 
     public User() {}
