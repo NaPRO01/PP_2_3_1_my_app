@@ -8,7 +8,7 @@ public interface UserService {
 
     List<User> index();
 
-    Object show(long id);
+    User show(long id);
 
     void saveUser(User user);
 
